@@ -160,7 +160,7 @@ If you use biomassChemistryFoam, you can cite the following papers
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/badges/shields
+[contributors-shield]: https://img.shields.io/github/contributors/Jingyuan92/shields
 [contributors-url]: https://github.com/Jingyuan92/ReadMeProofReading/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Jingyuan92/ReadMeProofReading.svg?style=for-the-badge
 [forks-url]: https://github.com/Jingyuan92/ReadMeProofReading/network/members
