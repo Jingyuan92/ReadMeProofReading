@@ -28,7 +28,7 @@ The biomassChemistryFoam is an extended solver based on the official "coalChemis
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3][license-shield]][license-url]
 
 <div align="center">
   <p align="center">
@@ -168,6 +168,6 @@ If you use biomassChemistryFoam, you can cite the following papers
 [stars-url]: https://github.com/Jingyuan92/ReadMeProofReading/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Jingyuan92/ReadMeProofReading.svg?style=for-the-badge
 [issues-url]: https://github.com/Jingyuan92/ReadMeProofReading/issues
-[license-shield]: https://img.shields.io/github/license/Jingyuan92/ReadMeProofReading.svg?style=for-the-badge
-[license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[license-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg
+[license-url]: https://www.gnu.org/licenses/gpl-3.0
 
