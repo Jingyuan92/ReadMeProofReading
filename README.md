@@ -128,7 +128,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Distributed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html). ([OpenFOAM license control](https://openfoam.org/licence/))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
