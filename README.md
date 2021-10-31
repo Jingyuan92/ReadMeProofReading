@@ -28,7 +28,7 @@ The biomassChemistryFoam is an extended solver based on the official "coalChemis
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GPLv3 License][license-shield]][license-url]
 
 <div align="center">
   <p align="center">
@@ -128,7 +128,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the PGLv3 License. See `LICENSE.txt` for more information.
+Distributed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,5 +169,5 @@ If you use biomassChemistryFoam, you can cite the following papers
 [issues-shield]: https://img.shields.io/github/issues/Jingyuan92/ReadMeProofReading.svg?style=for-the-badge
 [issues-url]: https://github.com/Jingyuan92/ReadMeProofReading/issues
 [license-shield]: https://img.shields.io/github/license/Jingyuan92/ReadMeProofReading.svg?style=for-the-badge
-[license-url]: https://github.com/Jingyuan92/ReadMeProofReading/blob/master/LICENSE.txt
+[license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
 
