@@ -160,13 +160,13 @@ If you use biomassChemistryFoam, you can cite the following papers
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Jingyuan92/ReadMeProofReading.svg?style=flat&logo=appveyor
+[contributors-shield]: https://img.shields.io/github/contributors/Jingyuan92/ReadMeProofReading.svg?style=flat
 [contributors-url]: https://github.com/Jingyuan92/ReadMeProofReading/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Jingyuan92/ReadMeProofReading.svg?style=flat&logo=appveyor
+[forks-shield]: https://img.shields.io/github/forks/Jingyuan92/ReadMeProofReading.svg?style=flat
 [forks-url]: https://github.com/Jingyuan92/ReadMeProofReading/network/members
-[stars-shield]: https://img.shields.io/github/stars/Jingyuan92/ReadMeProofReading.svg?style=flat&logo=appveyor
+[stars-shield]: https://img.shields.io/github/stars/Jingyuan92/ReadMeProofReading.svg?style=flat
 [stars-url]: https://github.com/Jingyuan92/ReadMeProofReading/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Jingyuan92/ReadMeProofReading.svg?style=flat&logo=appveyor
+[issues-shield]: https://img.shields.io/github/issues/Jingyuan92/ReadMeProofReading.svg?style=flat
 [issues-url]: https://github.com/Jingyuan92/ReadMeProofReading/issues
 [license-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg
 [license-url]: https://www.gnu.org/licenses/gpl-3.0
