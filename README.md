@@ -98,13 +98,13 @@ The new lib has two new templates which are inheritaged from the official Lagran
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [] Add Additional Templates w/ Examples
-- [] Add "components" document to easily copy & paste sections of the readme
-- [] Multi-language Support
-    - [] Chinese
-    - [] Spanish
+- [] Add phase fraction to the governing equations of the gas-phase
+- [] Add mesh-based thermally thick single particle model
+- [] Add advanced Eulerian-Lagrangian coupling methods [[1]](#1)
+- [] Multi-version Support
+    - [] OpenFOAMv8
+    - [] OpenFOAMv9
+    - [] OpenFOAMv2106
 
 See the [open issues](https://github.com/othneildrew/biomassChemistryFoam/issues) for a full list of proposed features (and known issues).
 
