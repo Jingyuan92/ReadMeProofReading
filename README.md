@@ -20,7 +20,7 @@
 
 
 <!-- PROJECT LOGO -->
-The biomassChemistryFoam is an extended solver based on the official "coalChemistryFoam" solver. Instead of using the coalCombustion lib, a new biomassCombustion lib is built. The layer-based thermally thick particle model is implemented to calculate the thermal conversion of the biomass particle.
+The biomassChemistryFoam is an extended solver based on the official "[coalChemistryFoam](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/applications/solvers/lagrangian/coalChemistryFoam)" solver. Instead of using the coalCombustion lib, a new biomassCombustion lib is built. The layer-based thermally thick particle model is implemented to calculate the thermal conversion of the biomass particle.
 <br />
 <br />
 
@@ -75,24 +75,26 @@ The biomassChemistryFoam is an extended solver based on the official "coalChemis
 <!-- Features -->
 ## Features
 
-### IBM model
+### IBM
 
-[[1]](#1)
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+IBM (interfaces-based model) and MBM (mesh-based model) are two typical thermally thick particle models. IBM was proposed by Thunman et al. [[3]](#3). In some literature, it also refers as sharp interface model or layer-based model. The IBM used in this repo is based on work of Ström et al. [[2]](#2), and certain modifications are also adopted [[1]](#1). The particle is divided into 4 layers (wet wood, dry wood, char, and ash) by 3 inifinite thin converting fronts (drying, devolatilization, and char burnout). Each layer is assumed to be uniform. The heat transfer between the layers and fronts are calculated. 
 
-* [ ]()
-* [ ]()
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### New library
 
-The new lib has two new templates which are inheritaged from the official Lagrangian lib. 
+The new lib has two new templates which are inheritaged from the official Lagrangian lib. The ReactingMultiphaseIBMCloud template is inheritaged from [ReactingMultiphaseCloud](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/src/lagrangian/intermediate/clouds/Templates/ReactingMultiphaseCloud) template, and the ReactingMultiphaseIBMParcel is inheritaged from [ReactingMultiphaseParcel](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/src/lagrangian/intermediate/parcels/Templates/ReactingMultiphaseParcel). 
 
+Two submodels with RTS mechanism are added. The PyrolysisModel (which is modified from [DevolatilisationModel](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/src/lagrangian/intermediate/submodels/ReactingMultiphase/DevolatilisationModel)) and the CharOxidizationModel (which is modified from [SurfaceReactionModel](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/src/lagrangian/intermediate/submodels/ReactingMultiphase/SurfaceReactionModel)) are bounded with the reactingMultiphaseIBMCloud type. The reason to add these two submodels rather than using the original DevolatilisationModel and SurfaceReactionModel is that the pure vitrual functions in the original two has less access variables than wanted. 
 
 ### Solver
 
+The solver is a copycat of the [coalChemistryFoam](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/applications/solvers/lagrangian/coalChemistryFoam), but the coalCloud is replaced by the biomassCloud.
+
+A single particle case is added as a test and tutorial case for this slove.
+
+More features will be added to this solver.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- ROADMAP -->
@@ -111,12 +113,11 @@ See the [open issues](https://github.com/othneildrew/biomassChemistryFoam/issues
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- Contributing -->
 
 ## Contributing
 
-This repo will keep updating. There are lots of works waiting to be done, e.g. correcting the coding style to the [OpenFOAM style](https://openfoam.org/dev/coding-style-guide/), adding particle shape submodel to [RTS mechanism](https://openfoamwiki.net/index.php/OpenFOAM_guide/runTimeSelection_mechanism), making mass transfer submodel (analogues to heat transfer model)... ...
+This repo will keep updating. There are lots of works waiting to be done, e.g. correcting the coding style to the [OpenFOAM style](https://openfoam.org/dev/coding-style-guide/), adding particle shape submodel to [RTS mechanism](https://openfoamwiki.net/index.php/OpenFOAM_guide/runTimeSelection_mechanism), making mass transfer submodel (analogues to heat transfer model), making submodels of thermally thick particle properties (currently hard coded)... ...
 
 If you have any contribution to this repo, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvement".
 
