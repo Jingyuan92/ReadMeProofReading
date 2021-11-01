@@ -104,6 +104,7 @@ More features will be added to this solver.
 - [-] Add phase fraction to the governing equations of the gas-phase
 - [-] Add mesh-based thermally thick single particle model
 - [-] Add advanced Eulerian-Lagrangian coupling methods [[1]](#1)
+- [-] Add postprocess script (writting in python and jupyter)
 - [-] Multi-version Support
     - [-] OpenFOAMv8
     - [-] OpenFOAMv9
