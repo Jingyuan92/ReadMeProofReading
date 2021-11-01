@@ -77,7 +77,7 @@ The biomassChemistryFoam is an extended solver based on the official "[coalChemi
 
 ### IBM
 
-IBM (interfaces-based model) and MBM (mesh-based model) are two typical thermally thick particle models. IBM was proposed by Thunman et al. [[3]](#3). In some literature, it also refers as sharp interface model or layer-based model. The IBM used in this repo is based on work of Ström et al. [[2]](#2), and certain modifications are also adopted [[1]](#1). The particle is divided into 4 layers (wet wood, dry wood, char, and ash) by 3 inifinite thin converting fronts (drying, devolatilization, and char burnout). Each layer is assumed to be uniform. The heat transfer between the layers and fronts are calculated. 
+IBM (interfaces-based model) and MBM (mesh-based model) are two typical thermally thick particle models. IBM was proposed by Thunman et al. [[3]](#3). In some literature, it also refers as sharp interface model or layer-based model. The IBM used in this repo is based on work of Ström et al. [[2]](#2), and certain modifications are also adopted [[1]](#1). The particle is divided into 4 layers (wet wood, dry wood, char, and ash) by 3 inifinite thin converting fronts (drying, devolatilization, and char burnout). Each layer is assumed to be uniform. The heat and mass transfer between the layers and fronts are calculated. 
 
 
 ### New library
