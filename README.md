@@ -61,7 +61,12 @@ The biomassChemistryFoam is an extended solver based on the official "coalChemis
     <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#Publications">Publications</a></li>
-    <li><a href="#References">Publications</a></li>
+    <ul>
+        <li><a href="#Publications using this repo">Publications using this repo</a></li>
+      </ul>
+      <ul>
+        <li><a href="#Other-references">Other-references</a></li>
+      </ul>
   </ol>
 </details>
 
@@ -150,15 +155,14 @@ Research group: [ComKin group at NTNU](https://www.ntnu.edu/comkin/)
 <!-- Publications -->
 ## Publications
 
-If you use biomassChemistryFoam, you can cite the following papers
-* [Zhang J, Li T, Ström H, et al. Grid-independent Eulerian-Lagrangian approaches for simulations of solid fuel particle combustion[J]. Chemical Engineering Journal, 2020, 387: 123964.](https://www.sciencedirect.com/science/article/pii/S1385894719333790)
+If you use biomassChemistryFoam, you may want to cite the following papers:
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### Publications using this repo
+* <a id="1">[1]</a>[Zhang J, Li T, Ström H, et al. Grid-independent Eulerian-Lagrangian approaches for simulations of solid fuel particle combustion[J]. Chemical Engineering Journal, 2020, 387: 123964.](https://www.sciencedirect.com/science/article/pii/S1385894719333790)
 
-<!-- References -->
-## References
-* [Ström H, Thunman H. CFD simulations of biofuel bed conversion: A submodel for the drying and devolatilization of thermally thick wood particles[J]. Combustion and Flame, 2013, 160(2): 417-431.](https://www.sciencedirect.com/science/article/pii/S0010218012002933)
-* [Thunman H, Leckner B, Niklasson F, et al. Combustion of wood particles—a particle model for Eulerian calculations[J]. Combustion and Flame, 2002, 129(1-2): 30-46.](https://www.sciencedirect.com/science/article/pii/S0010218001003716)
+### Other references
+* <a id="2">[2]</a>[Ström H, Thunman H. CFD simulations of biofuel bed conversion: A submodel for the drying and devolatilization of thermally thick wood particles[J]. Combustion and Flame, 2013, 160(2): 417-431.](https://www.sciencedirect.com/science/article/pii/S0010218012002933)
+* <a id="3">[3]</a>[Thunman H, Leckner B, Niklasson F, et al. Combustion of wood particles—a particle model for Eulerian calculations[J]. Combustion and Flame, 2002, 129(1-2): 30-46.](https://www.sciencedirect.com/science/article/pii/S0010218001003716)
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
