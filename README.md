@@ -88,7 +88,7 @@ Two submodels with RTS mechanism are added. The PyrolysisModel (which is modifie
 
 ### Solver
 
-The solver is a copycat of the [coalChemistryFoam](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/applications/solvers/lagrangian/coalChemistryFoam), but the coalCloud is replaced by the biomassCloud.
+The solver is a copy of the [coalChemistryFoam](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/applications/solvers/lagrangian/coalChemistryFoam), but the coalCloud is replaced by the biomassCloud.
 
 A single particle case is added as a test and tutorial case for this slove.
 
@@ -100,13 +100,13 @@ More features will be added to this solver.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Add phase fraction to the governing equations of the gas-phase
-- [] Add mesh-based thermally thick single particle model
-- [] Add advanced Eulerian-Lagrangian coupling methods [[1]](#1)
-- [] Multi-version Support
-    - [] OpenFOAMv8
-    - [] OpenFOAMv9
-    - [] OpenFOAMv2106
+- [-] Add phase fraction to the governing equations of the gas-phase
+- [-] Add mesh-based thermally thick single particle model
+- [-] Add advanced Eulerian-Lagrangian coupling methods [[1]](#1)
+- [-] Multi-version Support
+    - [-] OpenFOAMv8
+    - [-] OpenFOAMv9
+    - [-] OpenFOAMv2106
 
 See the [open issues](https://github.com/othneildrew/biomassChemistryFoam/issues) for a full list of proposed features (and known issues).
 
