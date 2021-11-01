@@ -28,6 +28,7 @@ The biomassChemistryFoam is an extended solver based on the official "[coalChemi
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![OpenFOAM v7](https://img.shields.io/badge/OpenFOAM-v7-brightgreen.svg)](https://openfoam.org/)
 [![License: GPL v3][license-shield]][license-url]
 
 <div align="center">
